@@ -1,0 +1,17 @@
+#Switch
+NET Switch[0] LOC = V5;
+NET Switch[1] LOC = U4;
+NET Switch[2] LOC = V3;
+NET Switch[3] LOC = P4;
+
+NET EN LOC = M17;
+
+NET Segs[0] LOC = AA21;
+NET Segs[1] LOC = AA22;
+NET Segs[2] LOC = Y22;
+NET Segs[3] LOC = N15;
+NET Segs[4] LOC = AB10;
+NET Segs[5] LOC = P20;
+NET Segs[6] LOC = Y21;
+
+Net Btn0 LOC = E6;

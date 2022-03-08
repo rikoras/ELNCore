@@ -1,0 +1,8 @@
+[Inputs]
+EnableSegs
+=Digit[3:0]=
+[Outputs]
+[BiDir]
+[ATTRIBUTES]
+VeriModel seven_seg
+

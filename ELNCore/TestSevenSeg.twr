@@ -1,0 +1,88 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2 -n 3
+-fastpaths -xml TestSevenSeg.twx TestSevenSeg.ncd -o TestSevenSeg.twr
+TestSevenSeg.pcf -ucf Anvyl_Master.ucf
+
+Design file:              TestSevenSeg.ncd
+Physical constraint file: TestSevenSeg.pcf
+Device,package,speed:     xc6slx45,csg484,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Btn0           |En             |   16.624|
+Btn0           |Segs<0>        |   17.655|
+Btn0           |Segs<1>        |   17.887|
+Btn0           |Segs<2>        |   17.843|
+Btn0           |Segs<3>        |   17.460|
+Btn0           |Segs<4>        |   17.745|
+Btn0           |Segs<5>        |   17.986|
+Btn0           |Segs<6>        |   17.512|
+Switch<0>      |Segs<0>        |   12.317|
+Switch<0>      |Segs<1>        |   12.362|
+Switch<0>      |Segs<2>        |   12.385|
+Switch<0>      |Segs<3>        |   11.935|
+Switch<0>      |Segs<4>        |   12.287|
+Switch<0>      |Segs<5>        |   12.528|
+Switch<0>      |Segs<6>        |   12.174|
+Switch<1>      |Segs<0>        |   12.599|
+Switch<1>      |Segs<1>        |   12.720|
+Switch<1>      |Segs<2>        |   12.386|
+Switch<1>      |Segs<3>        |   12.293|
+Switch<1>      |Segs<4>        |   12.288|
+Switch<1>      |Segs<5>        |   12.529|
+Switch<1>      |Segs<6>        |   12.456|
+Switch<2>      |Segs<0>        |   12.223|
+Switch<2>      |Segs<1>        |   12.542|
+Switch<2>      |Segs<2>        |   12.564|
+Switch<2>      |Segs<3>        |   12.115|
+Switch<2>      |Segs<4>        |   12.466|
+Switch<2>      |Segs<5>        |   12.707|
+Switch<2>      |Segs<6>        |   12.080|
+Switch<3>      |Segs<0>        |   12.662|
+Switch<3>      |Segs<1>        |   12.275|
+Switch<3>      |Segs<2>        |   12.213|
+Switch<3>      |Segs<3>        |   11.848|
+Switch<3>      |Segs<4>        |   12.115|
+Switch<3>      |Segs<5>        |   12.356|
+Switch<3>      |Segs<6>        |   12.519|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Mar 08 16:37:39 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 207 MB
+
+
+

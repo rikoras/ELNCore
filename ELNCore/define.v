@@ -63,3 +63,10 @@
 `define RegNum				32
 `define RegNumLog2		5	//GReg 5bits for addressing
 `define NOPRegAddr		5'b00000
+
+
+//************ Seven Segments Digit *******
+`define SegsSel 			3'b4
+`define SegsEnable		1'b1
+`define SegsDisable		1'b0
+`define SegsBus				6:0
